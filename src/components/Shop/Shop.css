@@ -1,11 +1,16 @@
 .shop-container {
-  margin: 2% 5%;
   display: grid;
   grid-template-columns: 4fr 1fr;
 }
 
 .products-container {
+  margin: 2% 5%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2em;
+}
+
+.cart-container {
+  padding: 5%;
+  background: rgba(255, 153, 0, 0.3);
 }
